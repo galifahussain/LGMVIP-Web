@@ -1,0 +1,34 @@
+*{
+    font-family: 'Poiret One', cursive;
+}
+body {
+	background-color:lightskyblue;
+}
+.button{
+    padding: 10px;
+    background-color: #152238;
+    border: none;
+    margin: 20px;
+    font-size: 34px;
+    border-radius: 5px;
+    width: 150px;
+}
+}
+.style{
+    width: 300px;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color:gray;
+}
+
+h1{
+    text-align: center;
+    color:yellowgreen;
+	font-weight:bold;
+	text-decoration:underline;
+}
+input[type="button"]:hover{
+    background-color:violet;
+}

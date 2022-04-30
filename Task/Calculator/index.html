@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+<center>
+    <h1 class="heading">Calculator</h1><br>
+    <div class="main-container">
+        <input type="text" placeholder="Let's Calculate" id="result" class="style" />
+    </div>
+    <div class="button">
+        <div class="row1">
+            <button value="c" onclick="dis('1')">1</button>
+            <button value="1" onclick="dis('2')">2</button>
+            <button value="2" onclick="dis('3')">3</button>
+            <button value="3" onclick="clr()">C</button>
+        </div>
+        <div id="row2">
+            <button value="4" onclick="dis('4')">4</button>
+            <button value="5" onclick="dis('5')">5</button>
+            <button value="6" onclick="dis('6')">6</button>
+            <button value="7" onclick="dis('+')">+</button>
+        </div>
+        <div class="row3">
+            <button value="8" onclick="dis('7')">7</button>
+            <button value="9" onclick="dis('8')">8</button>
+            <button value="0" onclick="dis('9')">9</button>
+            <button value="+" onclick="dis('-')">-</button>
+            <div class="row4">
+                <button value="-" onclick="dis('0')">0</button>
+                <button value="*" onclick="dis('*')">*</button>
+                <button value="/" onclick="dis('/')">/</button>
+                <button value="=" onclick="solve()">=</button>
+            </div>
+        </div>
+    </div>
+</center>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
