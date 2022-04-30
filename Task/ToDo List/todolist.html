@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--Heading for our to do list-->
+    <h2 class="heading">To-Do list</h2>
+    
+
+    <!--Div class contains input box and add button to get the text from user 
+    and it will add as a list-->
+    <div class="entry-div">
+        <input type="text" class="text-field" id="textBoxInput" placeholder="Put your text here....">
+        <button class="button-click" onclick="addList()">Add</button>
+    </div>
+
+    <div id="items"> </div>
+
+
+
+
+    <!--Implementing the js file in html document-->
+    <script src="script1.js"></script>
+</body>
